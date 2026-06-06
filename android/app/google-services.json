@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611313755835",
+    "project_id": "posternova-5c2db",
+    "storage_bucket": "posternova-5c2db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611313755835:android:88a1f78e36f8deff5deb9e",
+        "android_client_info": {
+          "package_name": "com.example.poster_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ5cAS5__zd5SWueBhaqdfdksA0P5gwpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
