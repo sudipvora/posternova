@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'features/home/home_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,14 +21,7 @@ class PosterNovaApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'PosterNova',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('PosterNova'),
-        ),
-        body: const Center(
-          child: Text('Welcome to PosterNova'),
-        ),
-      ),
+      home: HomeScreen(),
     );
   }
 }
